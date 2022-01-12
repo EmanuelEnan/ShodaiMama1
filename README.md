@@ -4,13 +4,8 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+In the home page it was a challange to acheive the simultaneous scroll as griedview products and other widgets in singlechildscrollview both want to scroll separately. Ultimately I used customscrollview, slivers and slivergrid to achieve this.
 
-A few resources to get you started if this is your first Flutter project:
+In the API request i made a mistake by not putting 's' after the 'HTTP'. Spent a lot of times there as everything was fine and i didn't notice that mistake.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Made local database model and created all the methods to made the cart interactive. Unfortunately I couldnt able to do it as whenever i used the consumer method the FutureBuilder couldn't able to fetch the data and API request gets continous loading.
